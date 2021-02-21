@@ -1,5 +1,20 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <One />
   </div>
 </template>
+
+<script>
+import One from "../model/one";
+export default {
+  name: "",
+  data() {
+    return {};
+  },
+  components: {
+    One,
+  },
+};
+</script>
+
+<style lang="" scoped></style>
