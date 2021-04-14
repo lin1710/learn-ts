@@ -3,7 +3,7 @@ import VueRouter, { RouteConfig } from 'vue-router'
 import Home from '../views/Home.vue'
 import Project from '../views/Project.vue'
 import ShowInfo from '../views/ShowInfo.vue'
-import Parent from '../components/Parent.vue'
+// import Parent from '../components/Parent.vue'
 import Child from '../components/Child.vue'
 
 Vue.use(VueRouter)
@@ -20,15 +20,6 @@ const routes: Array<RouteConfig> = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "child" */ '../components/Child.vue')
-  },
-  
-  {
-    path: '/parent',
-    name: 'Parent',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "parent" */ '../components/Parent.vue')
   },
   {
     path: '/showinfo',

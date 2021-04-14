@@ -1,18 +1,6 @@
 <template>
   <div>
-    <div class="demo-input-suffix">
-      姓名：
-      <el-input placeholder="请输入姓名" v-model="uname" clearable> </el-input>
-    </div>
-
-    <div class="demo-input-suffix">
-      地址：
-      <el-input placeholder="请输入地址" v-model="address" clearable>
-      </el-input>
-    </div>
-
     <el-button type="primary" @click="savedata">点击保存</el-button>
-    <el-button type="primary" @click="toShowInfo">点击展示</el-button>
   </div>
 </template>
 
