@@ -1,6 +1,9 @@
 <template>
   <div>
     <el-button type="primary" @click="savedata">点击保存</el-button>
+    <el-button type="primary" @click="savedata">点击保存</el-button>
+    <el-button type="primary" @click="savedata">点击保存</el-button>
+    <el-button type="primary" @click="savedata">点击保存</el-button>
   </div>
 </template>
 
